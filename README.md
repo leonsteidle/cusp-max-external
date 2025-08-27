@@ -40,6 +40,9 @@ It outputs:
   - Windows: Not directly supported by this Makefile.
 
 - **GNU Scientific Library (GSL):**
+  - *Not required for this object!*  
+    All cubic root calculations are handled internally and do **not** rely on GSL or other external math libraries.
+  - **If you intend to use GSL for other code, install via:**  
   - Install via:**  
     - macOS: `brew install gsl`
     - Ubuntu: `sudo apt-get install libgsl-dev`
